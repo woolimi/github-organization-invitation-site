@@ -1,0 +1,17 @@
+{
+  "name": "github organization invitation site",
+  "description": "Simple automatic github organization invitation issuance site (express + vuejs)",
+  "repository": "https://github.com/woolimi/github-organization-invitation-site",
+  "logo": "https://avatars.githubusercontent.com/u/44322175?v=4",
+  "keywords": ["github", "automation", "github organization", "team", "invite"],
+  "env": {
+    "GITHUB_ACCESS_TOKEN": {
+      "description": "A personal Github access token",
+      "value": null
+    },
+    "ORGANIZATION_NAME": {
+      "description": "Your organization name",
+      "value": null
+    }
+  }
+}
